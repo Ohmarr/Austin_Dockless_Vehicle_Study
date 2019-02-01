@@ -1,23 +1,29 @@
-# Austin_Dockless_Vehicle_Study
-An analysis of dockless vehicle usage in Austin, Texas related to weather
+# <center> Austin, Texas Dockless Vehicle Study </center>
+An analysis of dockless vehicle usage in Austin, Texas related to weather <br>
+![Dockless Scooter](http://s79f01z693v3ecoes3yyjsg1.wpengine.netdna-cdn.com/wp-content/uploads/2018/03/sf.Bird_.0307.jpg) 
 
-Project Members
-## Petros Paterakis
-## Michael Alrafati
-## Omar Abusheikh
+### Project Members:
+#### Petros Paterakis, Michael Alrafati, Omar Abusheikh
 
+<hr><br>
 
-Overview: 
-City of Austin Transportation Department has recently released a dataset as part of the Dockless Mobility Service operating rules. This dataset contains information per trip and vehicle type.  Our aim is to investigate the correlation dockless vehicle usage in relation to weather. Weather data will be pulled from a public database with the help of an API.
+### Overview: 
 
+<br>
 
-Main Points: 
+###### The City of Austin Transportation Department maintains data related to dockless vehicle usage in the city.  
+###### Our aim is to investigate the correlation between dockless vehicle usage & weather.  
+###### Weather data will be pulled from LSU's Southern Regional Climate Center, which provides an API.   
 
-* 2 data sources: <br>
+### Main Points: 
+
+* Extraction (2 data sources): <br>
   - [City of Austin Dataset](https://data.austintexas.gov/Transportation-and-Mobility/Dockless-Vehicle-Trips/7d8e-dm7r "City of Austin Dataset") <br>
   - [Weather API](http://hrly.lsu.edu/ "Weather API") 
  
-* Transformation process: <br>
-  - API will be called per hour per day, since April 2018 to match Austin Dataset <br>
-* Destination: <br>
-  - Data will be collected & stored in database using mongo (maybe SQL)
+* Transformation: <br>
+  - We will utilitze the weather API, collecting data for every hour per day, starting on April 2018 through the present day,  to match the City of Austin dataset, <br>
+  - We will join the datasets on dates and times. <br>
+  
+* Loading: <br>
+  - Final dataset will be compiled into mongo database (maybe SQL) <br>

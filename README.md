@@ -5,11 +5,7 @@
 ### Project Members:
 #### Petros Paterakis, Michael Alrafati, Omar Abusheikh
 
-<hr>
-
-<h3 align=center> What is the correlation between dockless vehicle usage & weather in Austin? </h3> <br>
-
-<hr>
+<hr><h3 align=center> What is the correlation between dockless vehicle usage & weather in Austin? </h3><hr>
 
 ### Overview: 
 

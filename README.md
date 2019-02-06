@@ -12,7 +12,9 @@
 ### Overview: 
 
 * **Extraction** (from 2 data sources): <br>
-	The [City of Austin](https://data.austintexas.gov/Transportation-and-Mobility/Dockless-Vehicle-Trips/7d8e-dm7r "City of Austin Dataset") maintains a dataset for dockless vehicle usage in the city, and this was imported as a csv file into a python jupyter notebook file for further analysis.  Weather data was collected from [LSU's Souther Regional Climate Center (SRCC)](http://hrly.lsu.edu/ "Weather API") using the API which they have available; the API reponse was returned in JSON format & was also imported into a seperate jupyter notebook file.  *In this report, the two sets will be referred to as the 'Dockless Dataset', and the 'Weather Dataset'*. 
+	The [City of Austin](https://data.austintexas.gov/Transportation-and-Mobility/Dockless-Vehicle-Trips/7d8e-dm7r "City of Austin Dataset") maintains a dataset for dockless vehicle usage in the city, and this was imported as a csv file into a python jupyter notebook file for further analysis.  
+	Weather data was collected from [LSU's Souther Regional Climate Center (SRCC)](http://hrly.lsu.edu/ "Weather API") using the API which they have available; the API reponse was returned in JSON format & was also imported into a seperate jupyter notebook file.  
+	*In this report, the two sets will be referred to as the 'Dockless Dataset', and the 'Weather Dataset'*. 
 * **Transformation**: <br>
 	All steps in the transformation process were performed using python jupyter notebook files.  
 	The 'Dockless Dataset' is relatively recent, and only included data starting on April 2018, through the present day.  This data was downloaded as a csv, and was converted into a pandas dataframe.  

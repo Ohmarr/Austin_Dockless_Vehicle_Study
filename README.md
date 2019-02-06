@@ -11,19 +11,19 @@ An analysis of dockless vehicle usage in Austin, Texas related to weather <br>
 
 <br>
 
-###### The City of Austin Transportation Department maintains data related to dockless vehicle usage in the city.  
-###### Our aim is to investigate the correlation between dockless vehicle usage & weather.  
-###### Weather data will be pulled from LSU's Southern Regional Climate Center, which provides an API.   
+###### Is there a correlation between dockless vehicle usage & weather in Austin, TX?  
 
-### Main Points: 
+### Main Steps: 
 
-* Extraction (2 data sources): <br>
-  - [City of Austin Dataset](https://data.austintexas.gov/Transportation-and-Mobility/Dockless-Vehicle-Trips/7d8e-dm7r "City of Austin Dataset") <br>
-  - [Weather API](http://hrly.lsu.edu/ "Weather API") 
+* Extraction (from 2 data sources): <br>
+  The [City of Austin](https://data.austintexas.gov/Transportation-and-Mobility/Dockless-Vehicle-Trips/7d8e-dm7r "City of Austin Dataset") maintains a dataset for dockless vehicle usage in the city, and this was downloaded as a csv and imported into a python jupyter notebook file for further analysis.  Weather data was collected from [LSU's Souther Regional Climate Center (SRCC)](http://hrly.lsu.edu/ "Weather API") using the API which they have available; the API reponse was in JSON format & we .   
  
 * Transformation: <br>
-  - We will utilitze the weather API, collecting data for every hour per day, starting on April 2018 through the present day,  to match the City of Austin dataset, <br>
+  - Weather data will be collected 
+  - Weather API as JSON response -> converted into pandas dataframe -> time string to datetime format for pandas to read -> transposed df to change from list of dictionaries to dictionary of lists;  
+  , collecting data for every hour per day, starting on April 2018 through the present day,  to match the City of Austin dataset, <br>
   - We will join the datasets on dates and times. <br>
   
 * Loading: <br>
-  - Final dataset will be compiled into mongo database (maybe SQL) <br>
+  - Weather data was inserted into mongo db as collection via pymongo <br>
+  - Dockless vehicle collection inserted into mongo database via pymongo <br>

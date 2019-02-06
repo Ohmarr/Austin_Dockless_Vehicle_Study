@@ -1,12 +1,13 @@
-# <center> Austin, Texas Dockless Vehicle Study </center><br>
+<h1 align=center> Austin, Texas Dockless Vehicle Study </h1> <br>
+
 ![Dockless Scooter](http://s79f01z693v3ecoes3yyjsg1.wpengine.netdna-cdn.com/wp-content/uploads/2018/03/sf.Bird_.0307.jpg) <br>
 
 ### Project Members:
 #### Petros Paterakis, Michael Alrafati, Omar Abusheikh
 
-<hr><br>
+<hr>
 
-### <center> What is the correlation between dockless vehicle usage & weather in Austin? </center>
+<h3 align=center> What is the correlation between dockless vehicle usage & weather in Austin? </h3> <br>
 
 <hr>
 

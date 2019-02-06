@@ -6,7 +6,7 @@
 
 <hr><br>
 
-#### <center> *Is there a correlation between dockless vehicle usage & weather in Austin, TX?* </center>
+### <center> What is the correlation between dockless vehicle usage & weather in Austin? </center>
 
 <hr>
 
